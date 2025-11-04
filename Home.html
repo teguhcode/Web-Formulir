@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Mahasiswa</title>
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar start-->
+    <header class="header">
+      <a href="#" class="navbar-logo">Formulir Mahasiswa</a>
+    </header>
+    <!-- Navbar end -->
+
+    <!-- Formulir start -->
+    <form class="form">
+        <label for="NIM">NIM</label><br>
+        <input type="text" id="NIM" name="NIM"><br>
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="Nama"><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="gender">Pria</label><br>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="gender">Wanita</label><br>
+        <label for="tempatlahir">Tempar Lahir</label><br>
+        <select name="Tempat Lahir" id="tempatlahir">
+            <option value="">Pilih Kotamu</option>
+            <option value="Denpasar">Denpasar</option>
+            <option value="Bangli">Bangli</option>
+            <option value="Gianyar">Gianyar</option>
+        </select><br>
+        <label for="tanggal">Tanggal Lahir</label><br>
+        <input type="date" id="tanggal" nama="Tanggal Lahir" value="Day-Month-Year" min="2000-01-01" max="2025-12-31"><br>
+        <label for="alamat">Alamat</label><br>
+        <input type="text" id="alamat" name="Alamat"><br>
+        <label for="nohp">Nomor Telepon</label><br>
+        <input type="text" id="nohp" name="No Hp"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="Email"><br>
+        <label for="hobi">Hobi</label><br>
+        <select name="Hobi" id="hobi">
+            <option value="">Pilih Hobimu</option>
+            <option value="Olahraga">Olahraga</option>
+            <option value="Bernyani">Bernyanyi</option>
+            <option value="Gamers">Gamers</option>
+        </select><br>
+    </form>
+    <!-- Formulir End -->
+
+    <!-- Table -->
+    <table class="tabel">
+        <tr>
+            <th>NIM</th>
+            <th>Nama</th>
+            <th>Gender</th>
+            <th>Tempat Lahir</th>
+            <th>Tanggal Lahir</th>
+            <th>Alamat</th>
+            <th>Nomor Telepon</th>
+            <th>Email</th>
+            <th>Hobi</th>
+        </tr>
+        <tr>
+            <td>240040155</td>
+            <td>Teguh</td>
+            <td>Male</td>
+            <td>Denpasar</td>
+            <td>2222-08-12</td>
+            <td>Sanur</td>
+            <td>08931923113</td>
+            <td>teguh@blabla.com</td>
+            <td>Game</td>
+        </tr>
+        <tr>
+            <td>231045001</td>
+            <td>Andi Pratama</td>
+            <td>Laki-laki</td>
+            <td>Surabaya</td>
+            <td>2003-05-12</td>
+            <td>Jl. Mawar No. 23, Surabaya</td>
+            <td>081234567890</td>
+            <td>andi.pratama@example.com</td>
+            <td>Bermain gitar</td>
+        </tr>
+        <tr>
+            <td>231045002</td>
+            <td>Siti Rahmawati</td>
+            <td>Perempuan</td>
+            <td>Bandung</td>
+            <td>2004-09-08</td>
+            <td>Jl. Melati No. 5, Bandung</td>
+            <td>082112345678</td>
+            <td>siti.rahma@example.com</td>
+            <td>Membaca novel</td>
+        </tr>
+        <tr>
+            <td>231045003</td>
+            <td>Budi Santoso</td>
+            <td>Laki-laki</td>
+            <td>Yogyakarta</td>
+            <td>2002-11-23</td>
+            <td>Jl. Anggrek No. 10, Yogyakarta</td>
+            <td>085267890123</td>
+            <td>budi.santoso@example.com</td>
+            <td>Bermain futsal</td>
+        </tr>
+        <tr>
+            <td>231045004</td>
+            <td>Dewi Lestari</td>
+            <td>Perempuan</td>
+            <td>Denpasar</td>
+            <td>2003-03-17</td>
+            <td>Jl. Kenanga No. 7, Denpasar</td>
+            <td>083876543210</td>
+            <td>dewi.lestari@example.com</td>
+            <td>Menulis puisi</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
