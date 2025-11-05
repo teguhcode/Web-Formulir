@@ -6,17 +6,14 @@
 }
 
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 1rem 10%;
-  background: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  background: #75bae9;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 100;
 }
 
 .navbar-logo {
@@ -32,28 +29,30 @@
   width: 80%;
   max-width: 500px;
   padding: 20px;
-  border: 2px solid black;
+  border: none;
   border-radius: 10px;
-  background-color: rgb(196, 226, 228);
+  box-shadow: 0 2px 8px rgb(0, 0, 0.1);
+  background-color: #c4e2e4;
 }
 
 .tabel {
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    margin-left: 35px;
-    table-layout: auto;
-    word-wrap: break-word;
+  width: 100%;
+  max-width: 1500px;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  table-layout: auto;
+  word-wrap: break-word;
 }
 
 .tabel th, td {
-    border: 2px solid black;
-    padding: 10px;
-    text-align: center;
-    white-space: normal;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  white-space: normal;
 }
 
 .tabel th {
-    background-color: rgb(196, 226, 228);;
+  background-color: rgb(196, 226, 228);;
 }
