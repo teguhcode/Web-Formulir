@@ -25,13 +25,13 @@
 }
 
 .form {
-  margin:  100px auto;
+  margin:  25px auto;
   width: 80%;
   max-width: 500px;
   padding: 20px;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgb(0, 0, 0.1);
+  box-shadow: 0 1px 5px rgb(0, 0, 0.1);
   background-color: #c4e2e4;
 }
 
